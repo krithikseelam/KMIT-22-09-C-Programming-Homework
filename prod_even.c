@@ -8,6 +8,6 @@ int main(){
                 num = num + 2;
                 count++;
         }
-        printf("the product of 10 odd no.s are %lld",product);
+        printf("the product of 10 even no.s are %lld",product);
         return 0;
 }
