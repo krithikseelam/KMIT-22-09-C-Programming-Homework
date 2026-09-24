@@ -13,7 +13,7 @@ int main(){
             fact = fact * i;
         }
 
-        sum = sum + (1.0 / fact);
+        sum = sum + (i*i*i / fact);
         i++;
         }
 	printf("Euler's value = %f", sum);
