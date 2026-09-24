@@ -4,7 +4,7 @@ int main(){
 	long long a =0,b=1,c;
 	while(count <10){
 		c = a + b;
-		printf("%lld    ",c);
+		printf("%lld    ",a);
 		a = b;
 		b = c;
 		count++;
